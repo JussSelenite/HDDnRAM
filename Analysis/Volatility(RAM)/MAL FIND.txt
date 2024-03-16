@@ -1,0 +1,552 @@
+﻿"C:\DIANA\Section B\VolatilityWorkbench\vol.exe" -f "D:\SectionB\RAM Capture\RAM CAPTURE 3.raw" windows.malfind.Malfind 
+Volatility 3 Framework 2.5.0
+PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Hexdump	Disasm
+2624	MsMpEng.exe	0xfaf0000	0xfbcffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0xfaf0000:	add	byte ptr [eax], al
+0xfaf0002:	inc	eax
+0xfaf0003:	add	byte ptr [eax - 0x77000000], al
+0xfaf0009:	jmp	0x39f610c6
+0xfaf000e:	call	ax
+0xfaf0011:	jmp	dword ptr [ebp + 0x36fc]
+0xfaf0017:	add	byte ptr [eax], al
+0xfaf0019:	add	byte ptr [eax], al
+0xfaf001b:	add	byte ptr [eax], al
+0xfaf001d:	add	byte ptr [eax], al
+0xfaf001f:	add	byte ptr [ebx + 0x3893], cl
+0xfaf0025:	add	byte ptr [ebx + 0x44b3], cl
+0xfaf002b:	add	byte ptr [edi], cl
+0xfaf002d:	mov	bh, 4
+0xfaf002f:	dec	edx
+0xfaf0030:	mov	edx, dword ptr [ebx + 0x108]
+0xfaf0036:	add	eax, dword ptr [edx + ecx*4]
+0xfaf0039:	mov	dl, byte ptr [esi + ecx*2]
+0xfaf003c:	and	dl, 0xfe
+2624	MsMpEng.exe	0x102e0000	0x103bffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0x102e0000:	add	byte ptr [eax], al
+0x102e0002:	inc	eax
+0x102e0003:	add	byte ptr [eax - 0x77000000], al
+0x102e0009:	jmp	0x3a7510c6
+0x102e000e:	call	ax
+0x102e0011:	jmp	dword ptr [ebp + 0x36fc]
+0x102e0017:	add	byte ptr [eax], al
+0x102e0019:	add	byte ptr [eax], al
+0x102e001b:	add	byte ptr [eax], al
+0x102e001d:	add	byte ptr [eax], al
+0x102e001f:	add	byte ptr [ebx + 0x3893], cl
+0x102e0025:	add	byte ptr [ebx + 0x44b3], cl
+0x102e002b:	add	byte ptr [edi], cl
+0x102e002d:	mov	bh, 4
+0x102e002f:	dec	edx
+0x102e0030:	mov	edx, dword ptr [ebx + 0x108]
+0x102e0036:	add	eax, dword ptr [edx + ecx*4]
+0x102e0039:	mov	dl, byte ptr [esi + ecx*2]
+0x102e003c:	and	dl, 0xfe
+2624	MsMpEng.exe	0x10200000	0x102dffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0x10200000:	add	byte ptr [eax], al
+0x10200002:	inc	eax
+0x10200003:	add	byte ptr [eax - 0x77000000], al
+0x10200009:	jmp	0x3a6710c6
+0x1020000e:	call	ax
+0x10200011:	jmp	dword ptr [ebp + 0x36fc]
+0x10200017:	add	byte ptr [eax], al
+0x10200019:	add	byte ptr [eax], al
+0x1020001b:	add	byte ptr [eax], al
+0x1020001d:	add	byte ptr [eax], al
+0x1020001f:	add	byte ptr [ebx + 0x3893], cl
+0x10200025:	add	byte ptr [ebx + 0x44b3], cl
+0x1020002b:	add	byte ptr [edi], cl
+0x1020002d:	mov	bh, 4
+0x1020002f:	dec	edx
+0x10200030:	mov	edx, dword ptr [ebx + 0x108]
+0x10200036:	add	eax, dword ptr [edx + ecx*4]
+0x10200039:	mov	dl, byte ptr [esi + ecx*2]
+0x1020003c:	and	dl, 0xfe
+2624	MsMpEng.exe	0x103f0000	0x104cffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0x103f0000:	add	byte ptr [eax], al
+0x103f0002:	inc	eax
+0x103f0003:	add	byte ptr [eax - 0x77000000], al
+0x103f0009:	jmp	0x3a8610c6
+0x103f000e:	call	ax
+0x103f0011:	jmp	dword ptr [ebp + 0x36fc]
+0x103f0017:	add	byte ptr [eax], al
+0x103f0019:	add	byte ptr [eax], al
+0x103f001b:	add	byte ptr [eax], al
+0x103f001d:	add	byte ptr [eax], al
+0x103f001f:	add	byte ptr [ebx + 0x3893], cl
+0x103f0025:	add	byte ptr [ebx + 0x44b3], cl
+0x103f002b:	add	byte ptr [edi], cl
+0x103f002d:	mov	bh, 4
+0x103f002f:	dec	edx
+0x103f0030:	mov	edx, dword ptr [ebx + 0x108]
+0x103f0036:	add	eax, dword ptr [edx + ecx*4]
+0x103f0039:	mov	dl, byte ptr [esi + ecx*2]
+0x103f003c:	and	dl, 0xfe
+2624	MsMpEng.exe	0x10730000	0x1080ffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0x10730000:	add	byte ptr [eax], al
+0x10730002:	inc	eax
+0x10730003:	add	byte ptr [eax - 0x77000000], al
+0x10730009:	jmp	0x3aba10c6
+0x1073000e:	call	ax
+0x10730011:	jmp	dword ptr [ebp + 0x36fc]
+0x10730017:	add	byte ptr [eax], al
+0x10730019:	add	byte ptr [eax], al
+0x1073001b:	add	byte ptr [eax], al
+0x1073001d:	add	byte ptr [eax], al
+0x1073001f:	add	byte ptr [ebx + 0x3893], cl
+0x10730025:	add	byte ptr [ebx + 0x44b3], cl
+0x1073002b:	add	byte ptr [edi], cl
+0x1073002d:	mov	bh, 4
+0x1073002f:	dec	edx
+0x10730030:	mov	edx, dword ptr [ebx + 0x108]
+0x10730036:	add	eax, dword ptr [edx + ecx*4]
+0x10730039:	mov	dl, byte ptr [esi + ecx*2]
+0x1073003c:	and	dl, 0xfe
+2624	MsMpEng.exe	0x108a0000	0x1097ffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x108a0000:	add	byte ptr [eax], al
+0x108a0002:	add	byte ptr [eax], al
+0x108a0004:	add	byte ptr [eax], al
+0x108a0006:	add	byte ptr [eax], al
+0x108a0008:	add	byte ptr [eax], al
+0x108a000a:	add	byte ptr [eax], al
+0x108a000c:	add	byte ptr [eax], al
+0x108a000e:	add	byte ptr [eax], al
+0x108a0010:	add	byte ptr [eax], al
+
+0x108a0012:	add	byte ptr [eax], al
+0x108a0014:	add	byte ptr [eax], al
+0x108a0016:	add	byte ptr [eax], al
+0x108a0018:	add	byte ptr [eax], al
+0x108a001a:	add	byte ptr [eax], al
+0x108a001c:	add	byte ptr [eax], al
+0x108a001e:	add	byte ptr [eax], al
+0x108a0020:	add	byte ptr [eax], al
+0x108a0022:	add	byte ptr [eax], al
+0x108a0024:	add	byte ptr [eax], al
+0x108a0026:	add	byte ptr [eax], al
+0x108a0028:	add	byte ptr [eax], al
+0x108a002a:	add	byte ptr [eax], al
+0x108a002c:	add	byte ptr [eax], al
+0x108a002e:	add	byte ptr [eax], al
+0x108a0030:	add	byte ptr [eax], al
+
+0x108a0032:	add	byte ptr [eax], al
+0x108a0034:	add	byte ptr [eax], al
+0x108a0036:	add	byte ptr [eax], al
+0x108a0038:	add	byte ptr [eax], al
+0x108a003a:	add	byte ptr [eax], al
+0x108a003c:	add	byte ptr [eax], al
+0x108a003e:	add	byte ptr [eax], al
+2624	MsMpEng.exe	0x1ab30000	0x1ac2ffff	VadS	PAGE_EXECUTE_READWRITE	256	1	Disabled	
+08 00 42 00 00 00 00 05	..B.....
+8b 45 14 89 c2 8b 45 10	.E....E.
+8b 08 8b 40 04 89 0a 89	...@....
+42 04 8b 45 14 81 00 a0	B..E....
+00 00 00 8d 45 08 89 c2	....E...
+8b 45 14 8b 08 89 0a 8b	.E......
+45 14 89 c2 8b 45 08 8b	E....E..
+00 89 02 c7 42 04 00 00	....B...	
+0x1ab30000:	or	byte ptr [eax], al
+0x1ab30002:	inc	edx
+0x1ab30003:	add	byte ptr [eax], al
+
+0x1ab30005:	add	byte ptr [eax], al
+0x1ab30007:	add	eax, 0x8914458b
+0x1ab3000c:	ret	0x458b
+0x1ab3000f:	adc	byte ptr [ebx + 0x4408b08], cl
+0x1ab30015:	mov	dword ptr [edx], ecx
+0x1ab30017:	mov	dword ptr [edx + 4], eax
+0x1ab3001a:	mov	eax, dword ptr [ebp + 0x14]
+0x1ab3001d:	add	dword ptr [eax], 0xa0
+0x1ab30023:	lea	eax, [ebp + 8]
+0x1ab30026:	mov	edx, eax
+0x1ab30028:	mov	eax, dword ptr [ebp + 0x14]
+0x1ab3002b:	mov	ecx, dword ptr [eax]
+0x1ab3002d:	mov	dword ptr [edx], ecx
+0x1ab3002f:	mov	eax, dword ptr [ebp + 0x14]
+0x1ab30032:	mov	edx, eax
+0x1ab30034:	mov	eax, dword ptr [ebp + 8]
+0x1ab30037:	mov	eax, dword ptr [eax]
+0x1ab30039:	mov	dword ptr [edx], eax
+2624	MsMpEng.exe	0x1ac30000	0x1ae2ffff	VadS	PAGE_EXECUTE_READWRITE	512	1	Disabled	
+09 00 34 00 09 00 01 05	..4.....
+8b 55 18 8b 4d 54 8d 54	.U..MT.T
+0a fc 89 d6 b9 04 00 1a	........
+00 ff 95 6c 37 00 00 8b	...l7...
+4d 1c 89 08 83 45 18 fc	M....E..
+8d 45 1c 8b 4d 18 89 08	.E..M...
+81 6d 18 9c 02 00 00 9f	.m......
+0f 90 c0 66 89 45 38 8d	...f.E8.	
+0x1ac30000:	or	dword ptr [eax], eax
+0x1ac30002:	xor	al, 0
+0x1ac30004:	or	dword ptr [eax], eax
+0x1ac30006:	add	dword ptr [0x8b18558b], eax
+0x1ac3000c:	dec	ebp
+0x1ac3000d:	push	esp
+0x1ac3000e:	lea	edx, [edx + ecx - 4]
+0x1ac30012:	mov	esi, edx
+0x1ac30014:	mov	ecx, 0x1a0004
+0x1ac30019:	call	dword ptr [ebp + 0x376c]
+0x1ac3001f:	mov	ecx, dword ptr [ebp + 0x1c]
+0x1ac30022:	mov	dword ptr [eax], ecx
+0x1ac30024:	add	dword ptr [ebp + 0x18], -4
+0x1ac30028:	lea	eax, [ebp + 0x1c]
+0x1ac3002b:	mov	ecx, dword ptr [ebp + 0x18]
+0x1ac3002e:	mov	dword ptr [eax], ecx
+0x1ac30030:	sub	dword ptr [ebp + 0x18], 0x29c
+0x1ac30037:	lahf	
+
+0x1ac30038:	seto	al
+0x1ac3003b:	mov	word ptr [ebp + 0x38], ax
+
+2624	MsMpEng.exe	0x1c060000	0x1c13ffff	VadS	PAGE_EXECUTE_READWRITE	224	1	Disabled	
+00 00 40 00 80 00 00 00	..@.....
+89 e9 b8 10 47 2a 66 ff	....G*f.
+d0 ff a5 fc 36 00 00 00	....6...
+00 00 00 00 00 00 00 00	........
+8b 93 38 00 00 00 8b b3	..8.....
+44 00 00 00 0f b7 04 4a	D......J
+8b 93 08 01 00 00 03 04	........
+8a 8a 14 4e 80 e2 fe 89	...N....	
+0x1c060000:	add	byte ptr [eax], al
+0x1c060002:	inc	eax
+0x1c060003:	add	byte ptr [eax - 0x77000000], al
+0x1c060009:	jmp	0x464d10c6
+0x1c06000e:	call	ax
+
+0x1c060011:	jmp	dword ptr [ebp + 0x36fc]
+0x1c060017:	add	byte ptr [eax], al
+0x1c060019:	add	byte ptr [eax], al
+0x1c06001b:	add	byte ptr [eax], al
+0x1c06001d:	add	byte ptr [eax], al
+0x1c06001f:	add	byte ptr [ebx + 0x3893], cl
+0x1c060025:	add	byte ptr [ebx + 0x44b3], cl
+0x1c06002b:	add	byte ptr [edi], cl
+0x1c06002d:	mov	bh, 4
+0x1c06002f:	dec	edx
+0x1c060030:	mov	edx, dword ptr [ebx + 0x108]
+0x1c060036:	add	eax, dword ptr [edx + ecx*4]
+
+0x1c060039:	mov	dl, byte ptr [esi + ecx*2]
+0x1c06003c:	and	dl, 0xfe
+4168	SearchUI.exe	0xb770000	0xb78ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	
+55 8b ec 8b 45 08 8b 40	U...E..@
+18 8b 40 04 8b 48 2c 83	..@..H,.
+e1 f8 8b c1 2d 38 00 77	....-8.w
+0b 3d b8 0f 00 00 76 07	.=....v.
+b9 05 00 00 00 cd 29 8d	......).
+45 08 50 b8 e0 38 cd 64	E.P..8.d
+ff e1 cc cc cc cc cc cc	........
+ff d0 e9 b1 0f 00 00 cc	........	
+0xb770000:	push	ebp
+0xb770001:	mov	ebp, esp
+0xb770003:	mov	eax, dword ptr [ebp + 8]
+0xb770006:	mov	eax, dword ptr [eax + 0x18]
+0xb770009:	mov	eax, dword ptr [eax + 4]
+0xb77000c:	mov	ecx, dword ptr [eax + 0x2c]
+0xb77000f:	and	ecx, 0xfffffff8
+0xb770012:	mov	eax, ecx
+0xb770014:	sub	eax, 0xb770038
+0xb770019:	cmp	eax, 0xfb8
+0xb77001e:	jbe	0xb770027
+0xb770020:	mov	ecx, 5
+0xb770025:	int	0x29
+0xb770027:	lea	eax, [ebp + 8]
+0xb77002a:	push	eax
+0xb77002b:	mov	eax, 0x64cd38e0
+0xb770030:	jmp	ecx
+0xb770032:	int3	
+0xb770033:	int3	
+0xb770034:	int3	
+0xb770035:	int3	
+0xb770036:	int3	
+0xb770037:	int3	
+0xb770038:	call	eax
+0xb77003a:	jmp	0xb770ff0
+0xb77003f:	int3	
+4168	SearchUI.exe	0xc360000	0xc3c3fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	
+e9 fb ff 06 00 cc cc cc	........
+cc cc cc cc cc cc cc cc	........
+e9 eb 01 07 00 cc cc cc	........
+cc cc cc cc cc cc cc cc	........
+e9 db ff 0a 00 cc cc cc	........
+cc cc cc cc cc cc cc cc	........
+e9 cb 0f 07 00 cc cc cc	........
+cc cc cc cc cc cc cc cc	........	
+0xc360000:	jmp	0xc3d0000
+0xc360005:	int3	
+0xc360006:	int3	
+0xc360007:	int3	
+0xc360008:	int3	
+0xc360009:	int3	
+0xc36000a:	int3	
+0xc36000b:	int3	
+0xc36000c:	int3	
+0xc36000d:	int3	
+0xc36000e:	int3	
+0xc36000f:	int3	
+0xc360010:	jmp	0xc3d0200
+0xc360015:	int3	
+0xc360016:	int3	
+0xc360017:	int3	
+0xc360018:	int3	
+0xc360019:	int3	
+0xc36001a:	int3	
+0xc36001b:	int3	
+0xc36001c:	int3	
+0xc36001d:	int3	
+0xc36001e:	int3	
+0xc36001f:	int3	
+0xc360020:	jmp	0xc410000
+0xc360025:	int3	
+0xc360026:	int3	
+0xc360027:	int3	
+0xc360028:	int3	
+0xc360029:	int3	
+0xc36002a:	int3	
+0xc36002b:	int3	
+0xc36002c:	int3	
+0xc36002d:	int3	
+0xc36002e:	int3	
+0xc36002f:	int3	
+0xc360030:	jmp	0xc3d1000
+0xc360035:	int3	
+0xc360036:	int3	
+0xc360037:	int3	
+0xc360038:	int3	
+0xc360039:	int3	
+0xc36003a:	int3	
+0xc36003b:	int3	
+0xc36003c:	int3	
+0xc36003d:	int3	
+0xc36003e:	int3	
+0xc36003f:	int3	
+4168	SearchUI.exe	0xc3d0000	0xc3effff	VadS	PAGE_EXECUTE_READWRITE	4	1	Disabled	
+55 8b ec 81 fc 64 c9 9d	U....d..
+04 7f 15 6a 00 6a 00 68	...j.j.h
+90 0a 12 0a 68 64 09 00	....hd..
+00 e8 a2 02 b8 58 66 90	.....Xf.
+6a 00 8d 64 24 f4 56 53	j..d$.VS
+b8 5c e3 ee 0b 8b 08 83	.\......
+e9 01 72 04 89 08 eb 06	..r.....
+55 e8 b2 a5 91 58 55 e8	U....XU.	
+0xc3d0000:	push	ebp
+0xc3d0001:	mov	ebp, esp
+0xc3d0003:	cmp	esp, 0x49dc964
+0xc3d0009:	jg	0xc3d0020
+0xc3d000b:	push	0
+0xc3d000d:	push	0
+0xc3d000f:	push	0xa120a90
+0xc3d0014:	push	0x964
+0xc3d0019:	call	0x64f502c0
+0xc3d001e:	nop	
+0xc3d0020:	push	0
+0xc3d0022:	lea	esp, [esp - 0xc]
+0xc3d0026:	push	esi
+0xc3d0027:	push	ebx
+0xc3d0028:	mov	eax, 0xbeee35c
+0xc3d002d:	mov	ecx, dword ptr [eax]
+0xc3d002f:	sub	ecx, 1
+0xc3d0032:	jb	0xc3d0038
+
+0xc3d0034:	mov	dword ptr [eax], ecx
+0xc3d0036:	jmp	0xc3d003e
+0xc3d0038:	push	ebp
+0xc3d0039:	call	0x64cea5f0
+0xc3d003e:	push	ebp
+4488	smartscreen.ex	0x4850000	0x486ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	
+55 8b ec 8b 45 08 8b 40	U...E..@
+18 8b 40 04 8b 48 2c 83	..@..H,.
+e1 f8 8b c1 2d 38 00 85	....-8..
+04 3d b8 0f 00 00 76 07	.=....v.
+b9 05 00 00 00 cd 29 8d	......).
+45 08 50 b8 e0 38 cd 64	E.P..8.d
+ff e1 cc cc cc cc cc cc	........
+
+ff d0 e9 b1 0f 00 00 cc	........	
+0x4850000:	push	ebp
+0x4850001:	mov	ebp, esp
+0x4850003:	mov	eax, dword ptr [ebp + 8]
+0x4850006:	mov	eax, dword ptr [eax + 0x18]
+0x4850009:	mov	eax, dword ptr [eax + 4]
+0x485000c:	mov	ecx, dword ptr [eax + 0x2c]
+0x485000f:	and	ecx, 0xfffffff8
+0x4850012:	mov	eax, ecx
+0x4850014:	sub	eax, 0x4850038
+0x4850019:	cmp	eax, 0xfb8
+0x485001e:	jbe	0x4850027
+0x4850020:	mov	ecx, 5
+0x4850025:	int	0x29
+0x4850027:	lea	eax, [ebp + 8]
+0x485002a:	push	eax
+0x485002b:	mov	eax, 0x64cd38e0
+0x4850030:	jmp	ecx
+0x4850032:	int3	
+0x4850033:	int3	
+
+0x4850034:	int3	
+0x4850035:	int3	
+0x4850036:	int3	
+0x4850037:	int3	
+0x4850038:	call	eax
+0x485003a:	jmp	0x4850ff0
+0x485003f:	int3	
+1004	OneDrive.exe	0x55d0000	0x55dffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+f8 ff 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x55d0000:	add	byte ptr [eax], al
+0x55d0002:	add	byte ptr [eax], al
+0x55d0004:	add	byte ptr [eax], al
+0x55d0006:	add	byte ptr [eax], al
+0x55d0008:	add	byte ptr [eax], al
+0x55d000a:	add	byte ptr [eax], al
+0x55d000c:	add	byte ptr [eax], al
+0x55d000e:	add	byte ptr [eax], al
+0x55d0010:	clc	
+0x55d0011:	inc	dword ptr [eax]
+0x55d0013:	add	byte ptr [eax], al
+0x55d0015:	add	byte ptr [eax], al
+0x55d0017:	add	byte ptr [eax], al
+0x55d0019:	add	byte ptr [eax], al
+0x55d001b:	add	byte ptr [eax], al
+0x55d001d:	add	byte ptr [eax], al
+0x55d001f:	add	byte ptr [eax], al
+0x55d0021:	add	byte ptr [eax], al
+0x55d0023:	add	byte ptr [eax], al
+0x55d0025:	add	byte ptr [eax], al
+0x55d0027:	add	byte ptr [eax], al
+0x55d0029:	add	byte ptr [eax], al
+0x55d002b:	add	byte ptr [eax], al
+0x55d002d:	add	byte ptr [eax], al
+0x55d002f:	add	byte ptr [eax], al
+0x55d0031:	add	byte ptr [eax], al
+0x55d0033:	add	byte ptr [eax], al
+0x55d0035:	add	byte ptr [eax], al
+0x55d0037:	add	byte ptr [eax], al
+0x55d0039:	add	byte ptr [eax], al
+0x55d003b:	add	byte ptr [eax], al
+0x55d003d:	add	byte ptr [eax], al
+2268	fdm.exe	0x2140000	0x214ffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+f8 ff 00 00 4c 8b 43 08	....L.C.
+83 e8 02 89 44 24 34 89	....D$4.
+44 24 38 89 44 24 3c 89	D$8.D$<.
+5c 24 10 89 d8 8b 50 04	\$....P.
+8b 58 0c 8b 08 8b 40 28	.X....@(
+8b 71 04 8b 79 08 83 c0	.q..y...	
+0x2140000:	add	byte ptr [eax], al
+
+0x2140002:	add	byte ptr [eax], al
+0x2140004:	add	byte ptr [eax], al
+0x2140006:	add	byte ptr [eax], al
+0x2140008:	add	byte ptr [eax], al
+0x214000a:	add	byte ptr [eax], al
+0x214000c:	add	byte ptr [eax], al
+0x214000e:	add	byte ptr [eax], al
+0x2140010:	clc	
+0x2140011:	inc	dword ptr [eax]
+0x2140013:	add	byte ptr [ebx + ecx*4 + 0x43], cl
+0x2140017:	or	byte ptr [ebx + 0x448902e8], al
+0x214001d:	and	al, 0x34
+0x214001f:	mov	dword ptr [esp + 0x38], eax
+0x2140023:	mov	dword ptr [esp + 0x3c], eax
+0x2140027:	mov	dword ptr [esp + 0x10], ebx
+0x214002b:	mov	eax, ebx
+0x214002d:	mov	edx, dword ptr [eax + 4]
+0x2140030:	mov	ebx, dword ptr [eax + 0xc]
+0x2140033:	mov	ecx, dword ptr [eax]
+0x2140035:	mov	eax, dword ptr [eax + 0x28]
+0x2140038:	mov	esi, dword ptr [ecx + 4]
+0x214003b:	mov	edi, dword ptr [ecx + 8]
+4144	Microsoft Edge	0x1220000	0x1220fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	
+00 00 00 00 59 e9 f6 16	....Y...
+2a ff e8 f5 ff ff ff 00	*.......
+00 00 00 00 00 00 00 e8	........
+e8 ff ff ff 0a 00 22 01	......".
+00 00 00 00 e8 db ff ff	........
+ff 17 00 22 01 00 00 00	..."....
+00 e8 ce ff ff ff 24 00	......$.
+
+22 01 00 00 00 00 e8 c1	".......	
+0x1220000:	add	byte ptr [eax], al
+0x1220002:	add	byte ptr [eax], al
+0x1220004:	pop	ecx
+0x1220005:	jmp	0x4c1700
+0x122000a:	call	0x1220004
+0x122000f:	add	byte ptr [eax], al
+0x1220011:	add	byte ptr [eax], al
+0x1220013:	add	byte ptr [eax], al
+0x1220015:	add	byte ptr [eax], al
+0x1220017:	call	0x1220004
+0x122001c:	or	al, byte ptr [eax]
+0x122001e:	and	al, byte ptr [ecx]
+0x1220020:	add	byte ptr [eax], al
+
+0x1220022:	add	byte ptr [eax], al
+0x1220024:	call	0x1220004
+0x1220029:	pop	ss
+0x122002a:	add	byte ptr [edx], ah
+0x122002c:	add	dword ptr [eax], eax
+0x122002e:	add	byte ptr [eax], al
+0x1220030:	add	al, ch
+0x1220032:	into	
+
+Time Stamp: Sat Mar 16 06:02:04 2024
+
+
+******* End of command output ******
+

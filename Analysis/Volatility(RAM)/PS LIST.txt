@@ -1,0 +1,93 @@
+﻿PassMark Volatility Workbench Log file  -  http://www.passmark.com
+==================================================================
+Volatility Workbench Version: V3.0 Build 1006
+Volatility 3 Framework Version: 2.5.0
+Log Date: Fri Mar 15 22:25:37 2024
+
+
+Time Stamp: Fri Mar 15 22:09:06 2024
+
+"C:\DIANA\Section B\VolatilityWorkbench\vol.exe" -f "D:\SectionB\RAM Capture\RAM CAPTURE 3.raw" windows.pslist.PsList
+Volatility 3 Framework 2.5.0
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+4	0	System	0x866b1a00	163	-	N/A	False	2024-03-08 02:21:14.000000 	N/A	Disabled
+68	4	Registry	0x86779040	3	-	N/A	False	2024-03-08 02:20:49.000000 	N/A	Disabled
+520	4	smss.exe	0xa07ff380	3	-	N/A	False	2024-03-08 02:21:14.000000 	N/A	Disabled
+648	624	csrss.exe	0x8b1e9040	10	-	0	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+716	624	wininit.exe	0x8c469040	5	-	0	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+724	708	csrss.exe	0x8d1895c0	12	-	1	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+780	716	services.exe	0x8d279600	23	-	0	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+788	716	lsass.exe	0x8d66d040	7	-	0	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+816	708	winlogon.exe	0x8d6a8040	6	-	1	False	2024-03-08 02:21:33.000000 	N/A	Disabled
+896	716	fontdrvhost.ex	0x8d6b6040	5	-	0	False	2024-03-08 02:21:34.000000 	N/A	Disabled
+936	816	fontdrvhost.ex	0x867fb040	5	-	1	False	2024-03-08 02:21:34.000000 	N/A	Disabled
+944	780	svchost.exe	0x867fc400	24	-	0	False	2024-03-08 02:21:34.000000 	N/A	Disabled
+1036	780	svchost.exe	0x8d707040	16	-	0	False	2024-03-08 02:21:35.000000 	N/A	Disabled
+1128	816	dwm.exe	0x8d716640	12	-	1	False	2024-03-08 02:21:35.000000 	N/A	Disabled
+1204	780	svchost.exe	0x8d656400	26	-	0	False	2024-03-08 02:21:36.000000 	N/A	Disabled
+1212	780	svchost.exe	0x8cfe4040	81	-	0	False	2024-03-08 02:21:36.000000 	N/A	Disabled
+1260	780	svchost.exe	0x8d7c8040	21	-	0	False	2024-03-08 02:21:36.000000 	N/A	Disabled
+1276	780	svchost.exe	0x8d7e0040	34	-	0	False	2024-03-08 02:21:36.000000 	N/A	Disabled
+1316	780	svchost.exe	0x8d7d4040	19	-	0	False	2024-03-08 02:21:36.000000 	N/A	Disabled
+1532	780	svchost.exe	0x866f8540	4	-	0	False	2024-03-08 02:21:37.000000 	N/A	Disabled
+1588	780	svchost.exe	0x86727040	28	-	0	False	2024-03-08 02:21:38.000000 	N/A	Disabled
+1612	1316	dasHost.exe	0x867249c0	5	-	0	False	2024-03-08 02:21:38.000000 	N/A	Disabled
+1708	780	svchost.exe	0x8d8a9980	10	-	0	False	2024-03-08 02:21:39.000000 	N/A	Disabled
+1732	780	svchost.exe	0x8d89a740	3	-	0	False	2024-03-08 02:21:39.000000 	N/A	Disabled
+1840	780	vmacthlp.exe	0x8d895a00	2	-	0	False	2024-03-08 02:21:39.000000 	N/A	Disabled
+1880	1212	helperservice.	0x8d8dc380	2	-	0	False	2024-03-08 02:21:40.000000 	N/A	Disabled
+1904	780	WUDFHost.exe	0x8d8cf700	8	-	0	False	2024-03-08 02:21:40.000000 	N/A	Disabled
+1984	4	MemCompression	0x8d8ed100	30	-	N/A	False	2024-03-08 02:21:40.000000 	N/A	Disabled
+492	780	svchost.exe	0x8d91e300	11	-	0	False	2024-03-08 02:21:40.000000 	N/A	Disabled
+884	780	svchost.exe	0x8d943a00	5	-	0	False	2024-03-08 02:21:41.000000 	N/A	Disabled
+880	780	svchost.exe	0x8d93e040	12	-	0	False	2024-03-08 02:21:41.000000 	N/A	Disabled
+1800	780	svchost.exe	0x8d950040	9	-	0	False	2024-03-08 02:21:42.000000 	N/A	Disabled
+664	780	spoolsv.exe	0x8d98d8c0	14	-	0	False	2024-03-08 02:21:42.000000 	N/A	Disabled
+2288	944	WmiPrvSE.exe	0x8d9ca8c0	12	-	0	False	2024-03-08 02:21:44.000000 	N/A	Disabled
+2352	780	svchost.exe	0x8d9e0040	6	-	0	False	2024-03-08 02:21:44.000000 	N/A	Disabled
+2412	1880	conhost.exe	0x8d9f7040	5	-	0	False	2024-03-08 02:21:45.000000 	N/A	Disabled
+2476	780	svchost.exe	0x8da61040	12	-	0	False	2024-03-08 02:21:45.000000 	N/A	Disabled
+2540	780	VGAuthService.	0xaa8b5680	3	-	0	False	2024-03-08 02:21:46.000000 	N/A	Disabled
+2548	780	vmtoolsd.exe	0x8ee7f040	8	-	0	False	2024-03-08 02:21:46.000000 	N/A	Disabled
+2576	780	SecurityHealth	0x8da82040	10	-	0	False	2024-03-08 02:21:46.000000 	N/A	Disabled
+2624	780	MsMpEng.exe	0x998f2900	30	-	0	False	2024-03-08 02:21:46.000000 	N/A	Disabled
+3084	780	dllhost.exe	0x8dc44a00	17	-	0	False	2024-03-08 02:21:51.000000 	N/A	Disabled
+3160	780	svchost.exe	0x8dccf940	5	-	0	False	2024-03-08 02:21:53.000000 	N/A	Disabled
+3252	780	msdtc.exe	0x8dcaf040	13	-	0	False	2024-03-08 02:22:00.000000 	N/A	Disabled
+3476	780	NisSrv.exe	0x89e20a00	5	-	0	False	2024-03-08 02:22:05.000000 	N/A	Disabled
+3584	944	WmiPrvSE.exe	0x8dd26a00	12	-	0	False	2024-03-08 02:22:07.000000 	N/A	Disabled
+3872	1212	sihost.exe	0x8dd95a00	16	-	1	False	2024-03-08 02:22:15.000000 	N/A	Disabled
+3880	780	svchost.exe	0x8dd94a00	22	-	1	False	2024-03-08 02:22:15.000000 	N/A	Disabled
+3976	1212	taskhostw.exe	0x8ddee580	11	-	1	False	2024-03-08 02:22:15.000000 	N/A	Disabled
+2092	1316	ctfmon.exe	0x8de37800	10	-	1	False	2024-03-08 02:22:16.000000 	N/A	Disabled
+2612	816	userinit.exe	0x8de45a00	0	-	1	False	2024-03-08 02:22:18.000000 	2024-03-08 02:22:56.000000 	Disabled
+3036	2612	explorer.exe	0x8de85680	77	-	1	False	2024-03-08 02:22:18.000000 	N/A	Disabled
+3836	944	ShellExperienc	0x8df09040	14	-	1	False	2024-03-08 02:22:35.000000 	N/A	Disabled
+4168	944	SearchUI.exe	0xa4ffea00	26	-	1	False	2024-03-08 02:22:38.000000 	N/A	Disabled
+4260	944	RuntimeBroker.	0x8e028040	6	-	1	False	2024-03-08 02:22:40.000000 	N/A	Disabled
+4392	944	RuntimeBroker.	0x8e074a00	7	-	1	False	2024-03-08 02:22:43.000000 	N/A	Disabled
+4400	944	ApplicationFra	0x8e070040	12	-	1	False	2024-03-08 02:22:43.000000 	N/A	Disabled
+4488	944	smartscreen.ex	0x8e065040	10	-	1	False	2024-03-08 02:22:44.000000 	N/A	Disabled
+4640	780	SearchIndexer.	0x8d784340	16	-	0	False	2024-03-08 02:22:46.000000 	N/A	Disabled
+4892	944	backgroundTask	0x8d64ea00	22	-	1	False	2024-03-08 02:22:50.000000 	N/A	Disabled
+5052	944	MicrosoftEdge.	0x8dfd3740	36	-	1	False	2024-03-08 02:22:52.000000 	N/A	Disabled
+5180	944	browser_broker	0x8e020a00	4	-	1	False	2024-03-08 02:22:53.000000 	N/A	Disabled
+5316	944	RuntimeBroker.	0x8e06e040	6	-	1	False	2024-03-08 02:22:55.000000 	N/A	Disabled
+5448	944	RuntimeBroker.	0x8c548a00	6	-	1	False	2024-03-08 02:22:56.000000 	N/A	Disabled
+5512	944	MicrosoftEdgeC	0x8c440a00	14	-	1	False	2024-03-08 02:22:57.000000 	N/A	Disabled
+5572	944	MicrosoftEdgeC	0x8c415a00	14	-	1	False	2024-03-08 02:22:57.000000 	N/A	Disabled
+5920	4640	SearchProtocol	0x8cae6a00	6	-	0	False	2024-03-08 02:23:01.000000 	N/A	Disabled
+6100	3036	MSASCuiL.exe	0x8bbc6a00	4	-	1	False	2024-03-08 02:23:09.000000 	N/A	Disabled
+1860	3036	vmtoolsd.exe	0x8cb90a00	6	-	1	False	2024-03-08 02:23:10.000000 	N/A	Disabled
+1004	3036	OneDrive.exe	0x8cb15a00	25	-	1	False	2024-03-08 02:23:11.000000 	N/A	Disabled
+476	4640	SearchFilterHo	0x8ce69580	4	-	0	False	2024-03-08 02:23:12.000000 	N/A	Disabled
+2760	3036	MicrosoftEdgeU	0x8cbe7a00	0	-	1	False	2024-03-08 02:23:13.000000 	2024-03-08 02:23:15.000000 	Disabled
+2268	3036	fdm.exe	0x8ce60500	17	-	1	False	2024-03-08 02:23:15.000000 	N/A	Disabled
+4144	3036	Microsoft Edge	0x8d437900	12	-	1	False	2024-03-08 02:23:25.000000 	N/A	Disabled
+1636	492	audiodg.exe	0x8d457a00	6	-	0	False	2024-03-08 02:23:27.000000 	N/A	Disabled
+4784	3036	MRCv120.exe	0x8d4a1300	11	-	1	False	2024-03-08 02:23:37.000000 	N/A	Disabled
+4672	1004	msedgewebview2	0x8cbd5a00	0	-	1	False	2024-03-08 02:23:40.000000 	2024-03-08 02:24:29.000000 	Disabled
+7240	780	WmiApSrv.exe	0x8e498040	5	-	0	False	2024-03-08 02:24:58.000000 	N/A	Disabled
+7556	944	RuntimeBroker.	0x8cfdf040	8	-	1	False	2024-03-08 02:25:02.000000 	N/A	Disabled
+
+Time Stamp: Fri Mar 15 22:09:12 2024
